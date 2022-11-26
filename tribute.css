@@ -95,7 +95,7 @@ footer p{
         margin-left: 5px;
     }
 }
-@media all and (max-width:375px) {
+    @media all and (max-width:375px) {
     .sec h1{
         font-size: 30px;
     }
@@ -112,6 +112,7 @@ footer p{
        
     }
 }
+/*  
 @media all and (max-width:425px) {
     .sec h1,h3{
         font-size: 33px;
@@ -169,8 +170,8 @@ footer p{
     footer p{
         font-size: 20px;
     }
-}
-@media all and (max-width:2560px) {
+} */
+/* @media all and (max-width:2560px) {
     .image,img{
         height: 460px;
         width: 400px;
@@ -191,4 +192,4 @@ footer p{
     footer p{
         font-size: 29px;
     }
-}
+} */
