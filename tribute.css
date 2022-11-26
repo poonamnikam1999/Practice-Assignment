@@ -84,18 +84,58 @@ footer p{
         align-items: center;
 
     }
+    .sec h1{
+        text-align: center;
+    }
     .sectpara h1{
-        margin-left: 5px;
+        /* margin-left: 5px; */
+        text-align: center;
         font-size: 40px;
     }
     .sectpara p{
         margin: 5px;
     }
     .biography h2{
-        margin-left: 5px;
+        /* margin-left: 5px; */
+        text-align: center;
+    }
+    footer p{
+        text-align: center;
     }
 }
-    @media all and (max-width:375px) {
+@media all and (min-width:320px) and (max-width:425px) {
+    .sec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sectpara h1{
+        /* margin-left: 5px; */
+        font-size: 30px;
+        text-align: center;
+    }
+    .sec h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sec h3{
+    text-align: center;
+    }
+    .sectpara p{
+        margin: 5px;
+    }
+    .biography h2{
+       text-align: center;
+    }
+
+    .image,img{
+        height: auto;
+        width: 270px;
+        border-radius: 150px;
+    }
+}
+/* @media all and (max-width:375px) {
     .sec h1{
         font-size: 30px;
     }
@@ -111,7 +151,7 @@ footer p{
        margin-left: 5px;
        
     }
-}
+} */
 /*  
 @media all and (max-width:425px) {
     .sec h1,h3{
