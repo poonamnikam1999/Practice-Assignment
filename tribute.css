@@ -18,10 +18,11 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-direction: row;
     
 }
 .sec h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #1d1e4c;
     text-transform: uppercase;
@@ -73,4 +74,121 @@ footer p{
     font-size: 20px;
     text-align: end;
     margin: 20px;
+}
+
+@media all and (min-width:320px) and (max-width:768px) {
+
+    .sec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sectpara h1{
+        margin-left: 5px;
+        font-size: 40px;
+    }
+    .sectpara p{
+        margin: 5px;
+    }
+    .biography h2{
+        margin-left: 5px;
+    }
+}
+@media all and (max-width:375px) {
+    .sec h1{
+        font-size: 30px;
+    }
+    .sectpara h1{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    .sectpara p{
+        margin: 5px;
+    
+    }
+    .biography h2{
+       margin-left: 5px;
+       
+    }
+}
+@media all and (max-width:425px) {
+    .sec h1,h3{
+        font-size: 33px;
+    }
+    .sectpara h1{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    .sectpara p{
+        margin: 5px;
+    
+    }
+    .biography h2{
+        margin-left: 5px;
+        
+     }
+}
+@media all and (max-width:320px) {
+    
+    .image,img{
+        height: 330px;
+        width: 280px;
+     
+    } 
+    .sec h1,h3{
+        font-size: 28px;
+    }
+    .sectpara h1{
+        font-size: 28px;
+        margin-left: 5px;
+    }
+
+}
+@media all and (max-width:1440px) {
+    .image,img{
+        height: 420px;
+        width: 380px;
+        border-radius: 190px
+     
+    }
+    .sec h1,h3{
+        font-size: 50px;
+    }
+    .sectpara p{
+        font-size: 23px;
+        word-spacing: 1.5px;
+        letter-spacing: 1px;
+    }
+    .biography h2{
+        font-size: 30px;
+    }
+    .biography ul,li{
+        font-size: 25px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:2560px) {
+    .image,img{
+        height: 460px;
+        width: 400px;
+        border-radius: 210px
+     
+    }
+    .sectpara p{
+        font-size: 30px;
+        word-spacing: 1.5px;
+      
+    }
+    .biography h2{
+        font-size: 37px;
+    }
+    .biography ul,li{
+        font-size: 31px;
+    }
+    footer p{
+        font-size: 29px;
+    }
 }
