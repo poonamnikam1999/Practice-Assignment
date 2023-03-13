@@ -178,14 +178,14 @@ border: 0px solid transparent;
     margin-top: 50px;
 }
 .photo{
-    height: 250px;
+    height: 290px;
     width: 283px;
     /* background-color: aqua; */
     margin-left: 15px;
     color: white;
 }
 .photoimg{
-    height: 100px;
+    height: 140px;
     width: 280px;
     /* background-color: blue; */
 }
@@ -227,13 +227,59 @@ border: 0px solid transparent;
 .footimg1 h3{
     margin-top: 20px;
 }
+
 .pic{
-    height: 200px;
-    width: 200px;
-    
+    height: 250px;
+    width: 220px;
 }
-.pic1 img{
+.pic .pic1{
+    height: 200px;
+    width: 180px;
+}
+.pic .pic1 img{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+    
+
+    
+   /* display: grid;
+   gap: 5px;
+   grid-template-areas: "I1 I2 I3"
+                        "I4 I5 I6"
+                        "I7 I8 I9"         ;
+
+.pic1{
+    grid-area: I1;
+}
+.pic1{
+    grid-area: I2;
+}
+.pic1{
+    grid-area: I3;
+}
+.pic1{
+    grid-area: I4;
+}
+.pic1{
+    grid-area: I5;
+}
+.pic1{
+    grid-area: I6;
+}
+.pic1{
+    grid-area: I7;
+}
+.pic1{
+    grid-area: I8;
+}
+.pic1{
+    grid-area: I9;
+} */
+/* .pic1 img{
     height: 100%;
     width: 100%;
 }
-
+ */

@@ -8,64 +8,130 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
     <style>
+        h1{
+            background-color: brown;
+            color: white;
+            font-weight: 100;
+            height: 50px;
+            width: 700px;
+            line-height: 50px;
+        }
+        table{
+            height: 300px;
+            width: 52%;
+            margin-top: 10px;
+        }
         table, tr, th, td{
             border: 1px solid black;
             border-collapse: collapse;
-         }
-         tr,td{
+            /* border: none;
+            outline: none; */
+        }
+        td{
             height: 20px;
-         }
+        }
+        
+       
          input{
-            border: 1px solid black;
+            border-bottom: 1px solid black;
             border-left: none;
-            border-bottom: none;
+            border-top: none;
             border-right: none;
-         }
+            /* border: none; */
+            outline: none;
+            width: 45%;
+            height: 30px;
+            
+         } 
     </style>
 </head>
 <body>
-      <table  align="center" style="height: 250px;  width: 700px;">
+      <!-- <table  align="center" style="height: 250px;  width: 700px;">
         <form action="">
             <tr>
-                <td  colspan="8" style="height: 50px;  font-size: 25px; background-color: brown; color: white;"><img src="Images/oo.png" alt="" style="height: 50px; width: 50px;">Logo Wear Order Form</td>
+                <td  colspan="8" style="height: 50px;  font-size: 25px; background-color: brown; color: white;">&nbsp; &nbsp;<i class="fa fa-light fa-shirt"></i> Logo Wear Order Form</td>
             </tr>
 
             <tr>
                 <td>Submitted By</td>
-                <td style="border-collapse: collapse; width:600px"></td>
+                <td><input type="text"></td>
             </tr>
             <tr>
                 <td>Phone</td>
-                <td></td>
+                <td><input type="text"></td>
             </tr>
             <tr>
                 <td>Email</td>
-                <td></td>
+                <td><input type="email"></td>
             </tr>
             <tr>
                 <td>Address</td>
-                <td></td>
+                <td><input type="text"></td>
             </tr>
             <tr>
                 <td>City/State/Zip</td>
-                <td></td>
+                <td><input type="text"></td>
+            </tr> 
+
+
+            <table style="height: 300px; width: 350px; margin-left: 330px;">
+            <form action="">
+            <tr>
+                <td>
+                <h1>&nbsp; &nbsp;<i class="fa fa-light fa-shirt"></i> Logo Wear Order Form</h1>
+            </td>
             </tr>
+
+        <tr>
+        <td>
+                Submited By <input type="text"></td>
+                <tr>
+
+                <tr><td>Phone <input type="text"></td></tr>
+
+                <tr><td>Email <input type="email"></td></tr>
+
+                <tr><td>Address <input type="text"></td></tr>
+
+               <tr><td> City/State/Zip <input type="text"></td>
+            
+            </tr>
+            
+            </form>
+            </table>  -->
+
+            <h1>&nbsp; &nbsp;<i class="fa fa-light fa-shirt"></i> Logo Wear Order Form</h1>
+
+            Submited By <input type="text"><br>
+
+            Phone&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<input type="text"><br>
+
+            Email &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<input type="email"><br>
+
+            Address &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br>
+
+            City/State/Zip <input type="text">
+
+
+
+        
 
             
                     
-     <table height="100px" width="700px" align="center" style="margin-top: 10px;">
+     <table>
                                 <tr style="background-color: brown; color:white;">
-                            <th>Item</th>
-                            <th>Description</th>
-                            <th>Size
-                                <hr>
-                               Adult/Youth 
-                               XS/S/M/XL/XXL
-                            </th>
-                            <th>Color</th>
-                            <th>Quantity</th>
-                            <th>Unit Price</th>
-                            <th>Amount</th>
+                            <th rowspan="2">Item</th>
+                            <th rowspan="2">Description</th>
+                            <th colspan="2">Size</th>
+                            <th rowspan="2">Color</th>
+                            <th rowspan="2">Quantity</th>
+                            <th rowspan="2">Unit Price</th>
+                            <th rowspan="2">Amount</th>
+                        </tr>
+
+                        <tr style="background-color: brown; color:white;">
+                            <th>Adult/Youth</th> 
+                            <th>XS/S/M/XL/XXL</th>
                         </tr>
 
                         
@@ -162,7 +228,6 @@
                     </table>
         
                   
-        </form>
-    </table>
+       
 </body>
 </html>
